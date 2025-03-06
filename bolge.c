@@ -24,9 +24,9 @@ int main(){
     		printf("%d plaka kodlu %s ili karadeniz bolgesindedir\n",plaka,iller);
 	        break; 
           }
-        
+        printf("hatali kod girdiniz");
     }
-  printf("hatali kod girdiniz");	
+  	
   }	
 	fclose(fp);
 	return 0;
